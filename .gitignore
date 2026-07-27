@@ -1,0 +1,39 @@
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Maven
+target/
+.mvn/timing.properties
+
+# Java
+*.class
+hs_err_pid*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Test and experiment output
+experiments/results/
+experiments/raw-data/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local infrastructure
+deploy/local-data/
